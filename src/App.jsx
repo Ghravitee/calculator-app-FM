@@ -65,10 +65,7 @@ function App() {
                     : "bg-Very-Dark-Violet-Toggle-Background-Keypad-Background-Screen-Background"
                 } flex cursor-pointer items-center h-5 relative w-14 rounded-full select-none`}
               >
-                <input
-                  type="checkbox"
-                  name="toggle"
-                  id="toggle"
+                <div
                   className={`absolute block w-[14px] h-[14px] ml-1 rounded-full ${
                     theme === "theme1"
                       ? "bg-Red-Key-Background-Toggle"
